@@ -11,7 +11,7 @@ Funcionalidade: Login no Ecommerce Fake
         Quando submeto minhas credenciais com "breistester@gmail.com" e "010203"
         Então sou redirecionado para minha conta
 
-    @busca_login_valido
+    @busca_login_invalido
     Esquema do Cenario: Login com falha
 
         Dado que acesso a página de login
